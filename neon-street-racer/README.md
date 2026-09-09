@@ -81,6 +81,12 @@ cd neon-street-racer
 python3 main.py
 ```
 
+For the web/browser build used by Vercel, the project also supports:
+
+```bash
+python3 -m pygbag app.py
+```
+
 The game opens in a standard graphical window at 1280x720. If you
 installed into a virtual environment, activate it first
 (`source venv/bin/activate`) before running `main.py`.

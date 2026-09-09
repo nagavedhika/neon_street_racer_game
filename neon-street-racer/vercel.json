@@ -1,6 +1,6 @@
 {
   "version": 2,
   "installCommand": "python3 -m pip install -r requirements.txt",
-  "buildCommand": "python3 -m pygbag main.py",
+  "buildCommand": "python3 -m pygbag app.py",
   "outputDirectory": "build/web"
 }
